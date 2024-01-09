@@ -1,0 +1,43 @@
+
+.nextButton{
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  display: flex;
+  background-color: var(--coleurbase);
+  border-style: none;
+  align-items: center;
+  width: 35%;
+}
+.nextButtonOrdonnance{
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  display: flex;
+  background-color: var(--coleurbase);
+  border-style: none;
+  align-items: center;
+  width: 71%;
+}
+.prevButton {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  background-color: var(--coleurbase);
+  border-style: none;
+  align-items: center;
+  width: 100%;
+}
+.enregistrerButton {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: var(--coleurbase);
+  border-style: none;
+  align-items: center;
+  width: 50%;
+}

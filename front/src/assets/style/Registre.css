@@ -1,0 +1,69 @@
+input, form textarea {
+    width: 100%;
+    background: rgba(24, 162, 167, 0.1);
+    border: 1px solid rgb(255, 255, 255);
+    color: #000;
+    height: 10%;
+    margin: 0 0 2px 0;
+    padding: 16px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  form input:focus, form textarea:focus {
+    background: rgba(5, 61, 63, 0.1);
+    color: #000;
+    
+  }
+  form input::placeholder, form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+  }
+  form input:focus::placeholder, form textarea:focus::placeholder {
+    color: #000;
+    opacity: 0.8; 
+  }
+  button {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 0.8px;
+    display: flex;
+    background-color:  var(--coleurbase);
+    border-style: none;
+    align-items: center;
+    margin-left: 35%;
+    border-radius: 5px;
+  }
+  select{
+    width: 100%;
+    background: rgba(24, 162, 167, 0.1);
+    border: 1px solid rgb(255, 255, 255);
+    height: 34px;
+  }
+
+  .boutonretour{
+    color: var(--coleurbase);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 50px;
+    letter-spacing: 0.8px;
+    display: flex;
+    background-color: #fff;
+    border-style: none;
+    align-items: center;
+  }
+  .boutonretour:hover{
+    color: var(--coleurbase);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 50px;
+    letter-spacing: 0.8px;
+    display: flex;
+    background-color: #fff;
+    border-style: none;
+    align-items: center;
+  }

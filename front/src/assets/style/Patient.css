@@ -1,0 +1,45 @@
+.Recherche {
+    font-weight:15px;
+    width: 40%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.table{
+    width: 95%;
+    margin-left: 2%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.Buttonajout {
+    height: 30px;
+    margin-top: inherit;
+    color:#fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    display: flex;
+    background-color:  var(--coleurbase);
+    border-style: none;
+    align-items: center;
+    margin-left: 25%;
+  }
+.Titreh2 {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.Edit {
+    cursor: pointer;
+    color: #798282;
+}
+.Voir {
+     cursor: pointer;
+     color: #798282;
+}
+
+.Delete {
+    cursor: pointer;
+    color: rgb(241, 94, 94);
+}

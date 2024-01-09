@@ -1,0 +1,22 @@
+{
+    "id": 1,
+    "type": "Logement",
+    "produit_id": 1,
+    "client_id": 3,
+    "created_at": "2023-04-28 07:15:45",
+    "updated_at": "2023-04-28 07:15:45",
+    "idclient": 3,
+    "nameclient": "RAKOTONDRASOA",
+    "lastnameclient": "MInoharisoa",
+    "sexeclient": "Masculin",
+    "birthclient": "2023-03-28",
+    "adressclient": "FANDRIANA",
+    "phoneclient": "0348904022",
+    "emailclient": "nandrianina@gmail.com",
+    "label": "Villa basse",
+    "prix": "1000000",
+    "disponible": "\"1\"",
+    "details": "Douche et Wc",
+    "image": "image/G4LxalWQc3SKwExyP7MOrIpZVZYWRoFvzHGPd7Z0.png",
+    "cite_id": 1
+}

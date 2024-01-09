@@ -1,0 +1,54 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
+.Produit{
+    margin-top: 10%;
+}
+
+.list_header{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 1fr 120px 120px 120px;
+    color: #6a727a;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 1.2rem;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.list_items {
+    padding: 10px 30px !important;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr 120px 120px;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    color: #6a727a;
+    background-color: #fff;
+}
+
+.image-item-form {
+    border: 2px dashed #6a727a;
+    position: relative;
+    cursor: pointer;
+}
+
+.image_item-form--label{
+    padding: 9px 15px;
+    border-radius: 4px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-item-form--input{
+    height: 100px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}

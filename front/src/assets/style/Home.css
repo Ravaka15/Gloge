@@ -1,0 +1,104 @@
+
+  .Home{
+    background: #798282;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .HomeGlass{
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: #d8d0d0;
+    overflow: hidden;
+    grid-template-columns: 11rem auto;
+  }
+  .Cardcontainer{
+    margin-top: 10%;
+  }
+  .Cardcompte{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background: #e7b385;
+    border-radius: 30px;
+    height: 150px;
+  }
+  .Cardcomptecentre{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background: #b1b1b1;
+    border-radius: 30px;
+    height: 150px;
+  }
+  .Cardtext{
+    margin-top: 13%;
+  }
+  .nombre{
+    margin-left: 45%;
+  }
+  .iconCard{
+    margin-left:5% ;
+  }
+
+  .react-calendar {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    border: 1px solid rgb(194, 229, 235);
+    box-shadow: 0px 3px 10px rgb(219, 225, 226);
+    font-size: 16px;
+  }
+  
+  .react-calendar__navigation {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #000;
+  }
+  
+  .react-calendar__navigation button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0;
+  }
+  
+  .react-calendar__navigation button:disabled {
+    color: #ccc;
+    cursor: default;
+  }
+  
+  .react-calendar__month-view__days__day {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+    margin: 5px;
+  }
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: rgb(212, 218, 219);
+  }
+  
+  .react-calendar__tile--now {
+    color: #fff;
+  }
+  
+   
+    .react-calendar__tile{
+      color: #f3b682;
+    }
+   
+  
