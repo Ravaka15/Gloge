@@ -1,0 +1,30 @@
+
+  .Home{
+    background: #798282;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .HomeGlass{
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: #d8d0d0;
+    overflow: hidden;
+    grid-template-columns: 11rem auto;
+  }
+  .Cardcontainer{
+    margin-top: 10%;
+  }
+  .Cardcompte{
+    background: #e7b385;
+    border-radius: 30px;
+    height: 150px;
+  }
+  .Cardcomptecentre{
+    background: #b1b1b1;
+    border-radius: 30px;
+    height: 150px;
+  }

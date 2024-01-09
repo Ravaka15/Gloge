@@ -1,0 +1,34 @@
+.MenuDash {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 50%;
+  padding-top: 0rem;
+  transition: all 300ms ease;
+}
+.Header {
+  float: right;
+  margin-top: 10px;
+  margin-right: 3%;
+}
+.Logout {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.Nom {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.Profil {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.ContainerMenuDash {
+  margin-bottom: 20px;
+}

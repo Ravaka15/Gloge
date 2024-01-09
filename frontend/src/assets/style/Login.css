@@ -1,0 +1,134 @@
+.containerLogin {
+  background-color: #666;
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: block;
+  color: var(--coleurbase);
+}
+h2{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: block;
+  color: var(--coleurbase);
+}
+h3{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: block;
+  color: var(--coleurbase);
+  text-align: center;
+}
+h4{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: block;
+  color: var(--coleurbase);
+}
+
+.Image {
+  width: 600px;
+  height: 500px;
+}
+
+input, form textarea {
+  width: 100%;
+  background: #798282;
+  border: 1px solid rgb(255, 255, 255);
+  color: var(--coleurbase);
+  height: 10%;
+  margin: 20px 0 6px 0;
+  padding: 16px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+form input:focus, form textarea:focus {
+  background: #798282;
+  color: var(--coleurbase);
+}
+form input::placeholder, form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+form input:focus::placeholder, form textarea:focus::placeholder {
+  color: #000;
+  opacity: 0.8;
+  
+}
+
+button {
+  color: var(--coleurbase);
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 50px;
+  letter-spacing: 0.8px;
+  display: flex;
+  background-color: #fff;
+  border-style: none;
+  align-items: center;
+}
+
+button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+
+.bouton {
+    color: var(--coleurbase);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    display: flex;
+    background-color: #fff;
+    border-style: none;
+    align-items: center;
+}
+.bouton:hover{
+  color: var(--coleurbase);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  display: flex;
+  background-color: #fff;
+}
+.loginbouton{
+  align-items: center;
+}
